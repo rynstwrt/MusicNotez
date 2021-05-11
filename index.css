@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1, h2, h3 {
+  font-family: "Itim", cursive;
+}
+
+a, p, li, input {
+  font-family: "Prompt", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #131313;
+  padding: 0.5rem 1rem;
+}
+header img {
+  width: 30px;
+  margin-left: 1rem;
+}
+
+#remainder {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#remainder #intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#remainder #intro h2 {
+  max-width: 40%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#remainder #intro #clefs {
+  margin-top: 5rem;
+  display: flex;
+}
+#remainder #intro #clefs input[type=button] {
+  margin: 0 1rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.25rem;
+}
+
+#staff {
+  width: 70%;
+}
+#staff .line {
+  background-color: white;
+  height: 1px;
+}
+#staff .space {
+  height: 15px;
+}
+#staff .space .pos {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  margin-right: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */

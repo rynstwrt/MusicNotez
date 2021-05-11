@@ -1,0 +1,30 @@
+html
+    head
+        title Music Notez
+        link(rel='preconnect' href='https://fonts.gstatic.com')
+        link(href='https://fonts.googleapis.com/css2?family=Itim&family=Prompt&display=swap' rel='stylesheet')
+        link(rel="stylesheet", type="text/css", href="index.css")
+    body
+        header
+            h1 Music Notez
+            img(src="eighthnote.png", alt="Music Note Logo")
+
+        #remainder
+            #intro
+                h2 Practice your sight reading for the treble or bass clef!
+                #clefs
+                    input(id="treble" type="button", value="treble cleff")
+                    input(id="bass" type="button", value="bass cleff")
+            #staff
+                .line
+                .space
+                    .pos
+                    .pos
+                .line
+                .space
+                .line
+                .space
+                .line
+                .space
+                .line
+        script(src="handler.js")
